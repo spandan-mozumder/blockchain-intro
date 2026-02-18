@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 export function Slide1_Title() {
     return (
         <SlideLayout className="justify-center">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center w-full h-[60vh]">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center w-full min-h-[60vh] py-12 md:py-0">
 
                 {/* Text Content */}
                 <div className="text-left space-y-6">
