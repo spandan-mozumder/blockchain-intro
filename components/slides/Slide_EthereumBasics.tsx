@@ -16,6 +16,10 @@ export function Slide_EthereumBasics() {
                     >
                         <h3 className="text-2xl font-bold text-blue-500 mb-2">Smart Contracts</h3>
                         <p className="text-lg">Programmable money. "If this happens, then pay that."</p>
+                        <ul className="list-disc pl-5 mt-2 text-muted-foreground text-sm">
+                            <li>Example: If flight delayed {'>'} 2 hours, pay insurance automatically.</li>
+                            <li>No paperwork, no human processing.</li>
+                        </ul>
                     </motion.div>
                     <motion.div
                         initial={{ opacity: 0, x: -50 }}
@@ -25,6 +29,10 @@ export function Slide_EthereumBasics() {
                     >
                         <h3 className="text-2xl font-bold text-blue-500 mb-2">dApps</h3>
                         <p className="text-lg">Decentralized Applications using the global computer.</p>
+                        <ul className="list-disc pl-5 mt-2 text-muted-foreground text-sm">
+                            <li>DeFi (Banks without bankers).</li>
+                            <li>NFTs (Digital ownership).</li>
+                        </ul>
                     </motion.div>
                 </div>
                 <motion.div

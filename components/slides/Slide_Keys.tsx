@@ -48,8 +48,11 @@ export function Slide_Keys() {
                         Like your <strong>Password</strong> or <strong>Mailbox Key</strong>.
                     </p>
                     <p className="text-muted-foreground mt-2">
-                        Used to sign transactions (open the mailbox). NEVER share this.
+                        Used to sign transactions (open the mailbox).
                     </p>
+                    <div className="mt-4 bg-red-500/10 text-red-500 p-2 rounded text-sm font-bold border border-red-500/50">
+                        IF YOU LOSE THIS, YOUR MONEY IS GONE FOREVER.
+                    </div>
                 </motion.div>
 
             </div>

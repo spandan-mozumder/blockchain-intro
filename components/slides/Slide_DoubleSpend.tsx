@@ -49,9 +49,9 @@ export function Slide_DoubleSpend() {
                 >
                     <XCircle className="w-8 h-8 text-red-500 flex-shrink-0" />
                     <p className="text-lg">
-                        <strong>The Problem:</strong> In digital world, copying is easy. Real money shouldn't be copyable.
-                        <br />
-                        <strong>The Solution:</strong> The Ledger (Blockchain) tracks who owns what, preventing copies.
+                        <strong>The Problem:</strong> In digital world, copying is easy. If I email you a photo, we both have it. Real money shouldn't be copyable.
+                        <br /><br />
+                        <strong>The Solution:</strong> The Ledger (Blockchain). Every node tracks the history. If I send it, the ledger updates to say I have 0.
                     </p>
                 </motion.div>
 

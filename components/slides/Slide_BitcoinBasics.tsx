@@ -25,6 +25,10 @@ export function Slide_BitcoinBasics() {
                     >
                         <h3 className="text-2xl font-bold text-orange-500 mb-2">Store of Value</h3>
                         <p className="text-lg">Like digital gold. Scarcity is built in (21 Million max).</p>
+                        <ul className="list-disc pl-5 mt-2 text-muted-foreground text-sm">
+                            <li>No government can print more.</li>
+                            <li>Hedge against inflation.</li>
+                        </ul>
                     </motion.div>
                     <motion.div
                         initial={{ opacity: 0, x: 50 }}
@@ -34,6 +38,10 @@ export function Slide_BitcoinBasics() {
                     >
                         <h3 className="text-2xl font-bold text-orange-500 mb-2">Peer-to-Peer</h3>
                         <p className="text-lg">Send money anywhere without a bank.</p>
+                        <ul className="list-disc pl-5 mt-2 text-muted-foreground text-sm">
+                            <li>Censorship resistant (No one can stop it).</li>
+                            <li>Available 24/7/365.</li>
+                        </ul>
                     </motion.div>
                 </div>
             </div>

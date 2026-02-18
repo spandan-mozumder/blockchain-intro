@@ -26,6 +26,10 @@ export function Slide_SolanaBasics() {
                     >
                         <h3 className="text-2xl font-bold text-[#14F195] mb-2">High Speed & Low Fees</h3>
                         <p className="text-lg">Thousands of transactions per second. Fractions of a penny.</p>
+                        <ul className="list-disc pl-5 mt-2 text-muted-foreground text-sm">
+                            <li>Fast like Visa/Mastercard (65,000 TPS).</li>
+                            <li>Cheap enough for games and micropayments.</li>
+                        </ul>
                     </motion.div>
                     <motion.div
                         initial={{ opacity: 0, x: 50 }}
@@ -35,6 +39,10 @@ export function Slide_SolanaBasics() {
                     >
                         <h3 className="text-2xl font-bold text-[#9945FF] mb-2">Proof of History</h3>
                         <p className="text-lg">A cryptographic clock that keeps everyone in sync without talking constantly.</p>
+                        <ul className="list-disc pl-5 mt-2 text-muted-foreground text-sm">
+                            <li>Parallel processing (multi-threaded).</li>
+                            <li>Like a synchronized dance instead of a meeting.</li>
+                        </ul>
                     </motion.div>
                 </div>
             </div>

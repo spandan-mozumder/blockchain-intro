@@ -30,8 +30,13 @@ export function Slide_ConsensusMech() {
                         transition={{ delay: 0.3 }}
                         className="bg-card/50 p-6 rounded-2xl border border-border"
                     >
-                        <h4 className="text-xl font-bold text-orange-500 mb-2">Proof of Work</h4>
-                        <p>Solve a hard math problem to prove you worked for the vote.</p>
+                        <h4 className="text-xl font-bold text-orange-500 mb-2">Proof of Work (Mining)</h4>
+                        <p className="mb-2">Solve a hard math problem to prove you worked for the vote.</p>
+                        <ul className="list-disc pl-5 text-sm text-muted-foreground">
+                            <li>Used by Bitcoin.</li>
+                            <li>High energy cost (feature, not bug).</li>
+                            <li>Very secure but slow.</li>
+                        </ul>
                     </motion.div>
                     <motion.div
                         initial={{ x: 20, opacity: 0 }}
@@ -39,8 +44,13 @@ export function Slide_ConsensusMech() {
                         transition={{ delay: 0.4 }}
                         className="bg-card/50 p-6 rounded-2xl border border-border"
                     >
-                        <h4 className="text-xl font-bold text-green-500 mb-2">Proof of Stake</h4>
-                        <p>Lock up your coins (collateral) to prove you won't cheat.</p>
+                        <h4 className="text-xl font-bold text-green-500 mb-2">Proof of Stake (Staking)</h4>
+                        <p className="mb-2">Lock up your coins (collateral) to prove you won't cheat.</p>
+                        <ul className="list-disc pl-5 text-sm text-muted-foreground">
+                            <li>Used by Ethereum & Solana.</li>
+                            <li>Energy efficient (Green).</li>
+                            <li>Faster and scalable.</li>
+                        </ul>
                     </motion.div>
                 </div>
             </div>

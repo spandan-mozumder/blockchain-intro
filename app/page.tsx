@@ -13,7 +13,7 @@ import { Slide8_MythDatabase } from "@/components/slides/Slide8_MythDatabase";
 
 import { Slide9_GoogleDocs } from "@/components/slides/Slide9_GoogleDocs";
 import { Slide10_HashDemo } from "@/components/slides/Slide10_HashDemo";
-import { Slide11_Activity } from "@/components/slides/Slide11_Activity";
+
 
 
 
@@ -85,7 +85,7 @@ export default function Home() {
         <Slide10_HashDemo key="slide10" />,
         <Slide_BlocksAndTx key="slide_blocks_tx" />,
 
-        <Slide11_Activity key="slide11" />,
+
         <Slide_ConsensusMech key="slide_consensus_mech" />,
         <Slide_Wallets key="slide_wallets" />,
         <Slide_Keys key="slide_keys" />,

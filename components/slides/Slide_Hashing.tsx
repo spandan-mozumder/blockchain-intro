@@ -57,15 +57,20 @@ export function Slide_Hashing() {
 
             </div>
 
-            <motion.p
+            <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 1 }}
-                className="mt-12 text-xl text-center max-w-2xl text-muted-foreground"
+                className="mt-8 text-center max-w-3xl"
             >
-                If you change even one comma in the history book, the fingerprint changes completely.
-                This alerts everyone that someone messed with the data.
-            </motion.p>
+                <p className="text-xl text-muted-foreground mb-4">
+                    If you change even <strong>one comma</strong> in the history book, the fingerprint changes completely.
+                </p>
+                <div className="bg-muted/50 p-4 rounded-xl inline-block text-left text-sm">
+                    <p><strong>Avalanche Effect:</strong> Small change in input = Huge change in output.</p>
+                    <p><strong>One-Way:</strong> You can't turn the fingerprint back into the data.</p>
+                </div>
+            </motion.div>
         </SlideLayout>
     );
 }

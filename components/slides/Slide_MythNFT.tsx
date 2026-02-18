@@ -5,7 +5,7 @@ import { MythCard } from "./MythCard";
 export function Slide_MythNFT() {
     return (
         <MythCard
-            mythNumber={5}
+            mythNumber={4}
             title="The JPEG Myth"
             statement="NFTs are just expensive JPEGs. I can right-click save them."
             verdict="CAP"

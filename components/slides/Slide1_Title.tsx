@@ -41,7 +41,7 @@ export function Slide1_Title() {
                         transition={{ delay: 1 }}
                         className="pt-8 border-t border-border mt-8"
                     >
-                        <p className="font-mono text-sm text-primary/80">Spandan Mozumder | GDSC Techno India University</p>
+                        <p className="font-mono text-sm text-primary/80">Spandan Mozumder & Adarsh Gupta | GDSC Techno India University</p>
                     </motion.div>
                 </div>
 

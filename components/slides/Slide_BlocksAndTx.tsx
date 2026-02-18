@@ -17,28 +17,35 @@ export function Slide_BlocksAndTx() {
                     <FileText className="w-24 h-24 text-blue-400 mb-4" />
                     <h3 className="text-2xl font-bold mb-2">Transaction</h3>
                     <p className="text-lg text-muted-foreground text-center">"Alice sends 5 SOL to Bob"</p>
-                    <p className="mt-4 text-sm font-mono bg-muted p-2 rounded">One line in the ledger.</p>
+                    <div className="mt-4 bg-muted p-2 rounded text-sm w-full text-center">
+                        <p className="font-bold">Purpose:</p>
+                        <p>To move value or data.</p>
+                    </div>
                 </motion.div>
 
                 <motion.div
                     initial={{ opacity: 0, scale: 0 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ delay: 0.5 }}
-                    className="text-4xl font-bold text-muted-foreground"
+                    className="flex flex-col items-center"
                 >
-                    →
+                    <div className="text-4xl font-bold text-muted-foreground">→</div>
+                    <div className="text-sm text-muted-foreground">Bundled Into</div>
                 </motion.div>
 
                 <motion.div
                     initial={{ opacity: 0, x: 50 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: 0.4 }}
-                    className="flex flex-col items-center bg-card p-8 rounded-2xl border border-primary/20 relative"
+                    className="flex flex-col items-center bg-card p-8 rounded-2xl border border-primary/20 relative w-1/3"
                 >
                     <Box className="w-24 h-24 text-orange-400 mb-4" />
                     <h3 className="text-2xl font-bold mb-2">Block</h3>
                     <p className="text-lg text-muted-foreground text-center">A Batch of Transactions</p>
-                    <p className="mt-4 text-sm font-mono bg-muted p-2 rounded">A Page in the book. Full of lines.</p>
+                    <div className="mt-4 bg-muted p-2 rounded text-sm w-full text-center">
+                        <p className="font-bold">Purpose:</p>
+                        <p>Efficiency & Security. Chained together.</p>
+                    </div>
                 </motion.div>
             </div>
         </SlideLayout>
