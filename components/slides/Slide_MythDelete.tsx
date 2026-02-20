@@ -5,7 +5,7 @@ import { MythCard } from "./MythCard";
 export function Slide_MythDelete() {
     return (
         <MythCard
-            mythNumber={6}
+            mythNumber={7}
             title="The Eraser Myth"
             statement="If I make a mistake on the blockchain, I can just delete it or undo it."
             verdict="CAP"

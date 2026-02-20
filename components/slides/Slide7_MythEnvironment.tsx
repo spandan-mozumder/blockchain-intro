@@ -11,8 +11,8 @@ export function Slide7_MythEnvironment() {
             verdict="OUTDATED"
             realityPoints={[
                 "Old Tech (Bitcoin/Proof of Work) = High Energy.",
-                "New Tech (Ethereum/Solana/Proof of Stake) = 99.9% less energy.",
-                "The entire Ethereum network now uses less energy than PayPal or YouTube."
+                "Proof of Stake networks generally use dramatically less energy than Proof of Work networks.",
+                "After Ethereum moved to Proof of Stake, public estimates showed roughly a ~99.9% drop in network energy demand."
             ]}
         />
     );

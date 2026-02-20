@@ -4,10 +4,25 @@ import { SlideLayout } from "./SlideLayout";
 import { motion } from "framer-motion";
 import { Check, X } from "lucide-react";
 
-export function Slide3_FactOrCap() {
+interface Slide3FactOrCapProps {
+    round?: number;
+    topic?: string;
+}
+
+export function Slide3_FactOrCap({ round, topic }: Slide3FactOrCapProps) {
     return (
         <SlideLayout className="bg-gradient-to-b from-background to-background/80">
             <div className="flex flex-col items-center justify-center h-full gap-12">
+                {(round || topic) && (
+                    <motion.p
+                        initial={{ opacity: 0, y: -10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        className="text-lg md:text-2xl font-semibold tracking-wide text-primary/90"
+                    >
+                        {round ? `Round ${round}` : "Round"}
+                        {topic ? ` · ${topic}` : ""}
+                    </motion.p>
+                )}
                 <motion.h1
                     initial={{ scale: 0.5, opacity: 0 }}
                     animate={{ scale: 1, opacity: 1 }}

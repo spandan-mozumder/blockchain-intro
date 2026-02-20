@@ -5,7 +5,7 @@ import { MythCard } from "./MythCard";
 export function Slide_MythHacking() {
     return (
         <MythCard
-            mythNumber={6}
+            mythNumber={8}
             title="The Invincible Myth"
             statement="Blockchain is unhackable and 100% secure."
             verdict="CAP"

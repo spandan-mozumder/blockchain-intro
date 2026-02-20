@@ -11,8 +11,8 @@ export function Slide5_MythCriminal() {
             verdict="CAP"
             realityPoints={[
                 "Cash is untraceable. Crypto creates a PERMANENT public record forever.",
-                "In 2024, less than 0.34% of crypto volume was illicit.",
-                "Criminals hate using it because the FBI can track it on the ledger."
+                "Major compliance reports consistently estimate illicit crypto activity as well below 1% of total on-chain volume.",
+                "Law-enforcement teams use blockchain analytics to trace many criminal flows over time."
             ]}
         />
     );

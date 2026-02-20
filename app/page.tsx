@@ -17,15 +17,16 @@ import { Slide10_HashDemo } from "@/components/slides/Slide10_HashDemo";
 
 
 
-import { Slide14_SupplyChain } from "@/components/slides/Slide14_SupplyChain";
-import { Slide15_Identity } from "@/components/slides/Slide15_Identity";
-import { Slide16_DeFi } from "@/components/slides/Slide16_DeFi";
+// Replaced by MythCards
+// import { Slide14_SupplyChain } from "@/components/slides/Slide14_SupplyChain";
+// import { Slide15_Identity } from "@/components/slides/Slide15_Identity";
+// import { Slide16_DeFi } from "@/components/slides/Slide16_DeFi";
 
 
 
-import { Slide19_Roadmap } from "@/components/slides/Slide19_Roadmap";
 import { Slide20_Homework } from "@/components/slides/Slide20_Homework";
 import { Slide21_QnA } from "@/components/slides/Slide21_QnA";
+import { Slide22_Team } from "@/components/slides/Slide22_Team";
 
 // New Content
 import { Slide_Decentralization } from "@/components/slides/Slide_Decentralization";
@@ -39,9 +40,15 @@ import { Slide_DAO } from "@/components/slides/Slide_DAO";
 import { Slide_Def_Ledger } from "@/components/slides/Slide_Def_Ledger";
 import { Slide_Def_Protocol } from "@/components/slides/Slide_Def_Protocol";
 import { Slide_Def_Block } from "@/components/slides/Slide_Def_Block";
+import { Slide_Def_Node } from "@/components/slides/Slide_Def_Node";
+import { Slide_Def_Mining } from "@/components/slides/Slide_Def_Mining";
+import { Slide_Def_SmartContract } from "@/components/slides/Slide_Def_SmartContract";
 
 import { Slide_MythNFT } from "@/components/slides/Slide_MythNFT";
 import { Slide_MythDelete } from "@/components/slides/Slide_MythDelete";
+import { Slide_MythSupplyChain } from "@/components/slides/Slide_MythSupplyChain";
+import { Slide_MythIdentity } from "@/components/slides/Slide_MythIdentity";
+import { Slide_MythDeFi } from "@/components/slides/Slide_MythDeFi";
 
 import { Slide_History } from "@/components/slides/Slide_History";
 import { Slide_BitcoinBasics } from "@/components/slides/Slide_BitcoinBasics";
@@ -53,50 +60,62 @@ import { Slide_ConsensusMech } from "@/components/slides/Slide_ConsensusMech";
 import { Slide_DoubleSpend } from "@/components/slides/Slide_DoubleSpend";
 import { Slide_Hashing } from "@/components/slides/Slide_Hashing";
 import { Slide_Keys } from "@/components/slides/Slide_Keys";
+import { Slide_TermsCore } from "@/components/slides/Slide_TermsCore";
+import { Slide_TermsAdvanced } from "@/components/slides/Slide_TermsAdvanced";
+import { Slide_TransactionLifecycle } from "@/components/slides/Slide_TransactionLifecycle";
+import { Slide_UseCasesImplementation } from "@/components/slides/Slide_UseCasesImplementation";
+import { Slide_SecurityChecklist } from "@/components/slides/Slide_SecurityChecklist";
 
 export default function Home() {
     const slides = [
         <Slide1_Title key="slide1" />,
         <Slide2_HandsUp key="slide2" />,
-        <Slide3_FactOrCap key="slide3" />,
+        <Slide3_FactOrCap key="slide3_1" />,
         <Slide4_MythMoney key="slide4" />,
         <Slide5_MythCriminal key="slide5" />,
         <Slide6_MythRichKid key="slide6" />,
+        <Slide7_MythEnvironment key="slide7" />,
+        <Slide8_MythDatabase key="slide8" />,
         <Slide_MythNFT key="slide_mythnft" />,
         <Slide_MythDelete key="slide_mythdelete" />,
+        <Slide_MythHacking key="slide_mythhacking" />,
+        <Slide_MythSupplyChain key="slide_mythsupplychain" />,
+        <Slide_MythIdentity key="slide_mythidentity" />,
+        <Slide_MythDeFi key="slide_mythdefi" />,
 
         <Slide_History key="slide_history" />,
         <Slide_BitcoinBasics key="slide_bitcoin" />,
+        <Slide_Def_SmartContract key="slide_def_smartcontract" />,
         <Slide_EthereumBasics key="slide_ethereum" />,
         <Slide_SolanaBasics key="slide_solana" />,
         <Slide_ChainComparison key="slide_comparison" />,
 
         <Slide_Decentralization key="slide_decentralization" />,
-        <Slide7_MythEnvironment key="slide7" />,
-        <Slide8_MythDatabase key="slide8" />,
-        <Slide_MythHacking key="slide_mythhacking" />,
         <Slide9_GoogleDocs key="slide9" />,
         <Slide_Def_Ledger key="slide_def_ledger" />,
         <Slide_Def_Protocol key="slide_def_protocol" />,
         <Slide_Def_Block key="slide_def_block" />,
+        <Slide_Def_Node key="slide_def_node" />,
 
         <Slide_DoubleSpend key="slide_doublespend" />,
         <Slide_Hashing key="slide_hashing" />,
         <Slide10_HashDemo key="slide10" />,
         <Slide_BlocksAndTx key="slide_blocks_tx" />,
 
-
+        <Slide_Def_Mining key="slide_def_mining" />,
         <Slide_ConsensusMech key="slide_consensus_mech" />,
         <Slide_Wallets key="slide_wallets" />,
         <Slide_Keys key="slide_keys" />,
-        <Slide14_SupplyChain key="slide14" />,
-        <Slide15_Identity key="slide15" />,
         <Slide_DAO key="slide_dao" />,
-        <Slide16_DeFi key="slide16" />,
         <Slide_Tokens key="slide_tokens" />,
-        <Slide19_Roadmap key="slide19" />,
+        <Slide_TermsCore key="slide_terms_core" />,
+        <Slide_TermsAdvanced key="slide_terms_advanced" />,
+        <Slide_TransactionLifecycle key="slide_tx_lifecycle" />,
+        <Slide_UseCasesImplementation key="slide_usecases_impl" />,
+        <Slide_SecurityChecklist key="slide_security_checklist" />,
         <Slide20_Homework key="slide20" />,
         <Slide21_QnA key="slide21" />,
+        <Slide22_Team key="slide22" />,
     ];
 
     return (

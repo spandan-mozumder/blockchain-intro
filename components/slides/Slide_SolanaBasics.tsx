@@ -25,9 +25,9 @@ export function Slide_SolanaBasics() {
                         className="bg-card p-6 rounded-xl border border-[#14F195]/30"
                     >
                         <h3 className="text-2xl font-bold text-[#14F195] mb-2">High Speed & Low Fees</h3>
-                        <p className="text-lg">Thousands of transactions per second. Fractions of a penny.</p>
+                        <p className="text-lg">High throughput and typically low fees for users.</p>
                         <ul className="list-disc pl-5 mt-2 text-muted-foreground text-sm">
-                            <li>Fast like Visa/Mastercard (65,000 TPS).</li>
+                            <li>Designed for high-volume consumer applications.</li>
                             <li>Cheap enough for games and micropayments.</li>
                         </ul>
                     </motion.div>
