@@ -18,10 +18,10 @@ export function Slide1_Title() {
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 0.8 }}
                     >
-                        <h1 className="text-6xl md:text-8xl font-black tracking-tighter bg-clip-text text-transparent bg-gradient-to-br from-white to-gray-500">
+                        <h1 className="text-7xl md:text-6xl font-black tracking-tighter bg-clip-text text-transparent bg-gradient-to-br from-white to-gray-500">
                             BLOCKCHAIN
                         </h1>
-                        <h2 className="text-4xl md:text-6xl font-bold text-primary mt-2">
+                        <h2 className="text-5xl md:text-4xl font-bold text-primary mt-2">
                             BEYOND THE HYPE
                         </h2>
                     </motion.div>
