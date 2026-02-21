@@ -9,29 +9,26 @@ interface TeamMember {
     image: string;
     accent: string;
     border: string;
-    portfolio?: string;
 }
 
 const teamMembers: TeamMember[] = [
     {
         name: "Spandan",
-        role: "Blockchain Lead",
+        role: "fullstack intern @azmth",
         image: "/spandan.jpg",
         accent: "text-primary",
         border: "border-primary/20",
-        portfolio: "https://spandyz.xyz",
     },
     {
         name: "Piush",
-        role: "Domain Member",
+        role: "fullstack dev @TENMarketing",
         image: "/piush.jpg",
         accent: "text-blue-400",
         border: "border-blue-400/20",
-        portfolio: "https://linktr.ee/devpiush",
     },
     {
         name: "Adarsh",
-        role: "Blockchain Lead",
+        role: "building u͟s͟e͟a͟v͟a͟s͟a͟r͟a͟.͟c͟o͟m͟",
         image: "/adarsh.jpg",
         accent: "text-purple-400",
         border: "border-purple-400/20",
@@ -77,16 +74,6 @@ export function Slide22_Team() {
                             <div className="text-center">
                                 <h2 className="text-3xl md:text-4xl font-bold">{member.name}</h2>
                                 <p className={`text-xl md:text-2xl font-medium mt-2 ${member.accent}`}>{member.role}</p>
-                                {member.portfolio && (
-                                    <a
-                                        href={member.portfolio}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="inline-block mt-3 text-sm md:text-base underline underline-offset-4 text-muted-foreground hover:text-foreground transition-colors"
-                                    >
-                                        Portfolio
-                                    </a>
-                                )}
                             </div>
                         </motion.div>
                     ))}
