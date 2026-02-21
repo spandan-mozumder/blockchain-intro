@@ -69,6 +69,7 @@ import { Slide_SecurityChecklist } from "@/components/slides/Slide_SecurityCheck
 export default function Home() {
     const slides = [
         <Slide1_Title key="slide1" />,
+        <Slide22_Team key="slide22" />,
         <Slide2_HandsUp key="slide2" />,
         <Slide3_FactOrCap key="slide3_1" />,
         <Slide4_MythMoney key="slide4" />,
@@ -115,7 +116,6 @@ export default function Home() {
         <Slide_SecurityChecklist key="slide_security_checklist" />,
         <Slide20_Homework key="slide20" />,
         <Slide21_QnA key="slide21" />,
-        <Slide22_Team key="slide22" />,
     ];
 
     return (
